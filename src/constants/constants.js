@@ -4,7 +4,7 @@ export const projects = [
     description: "Joycelyn's Personal Portfolio",
     image: "../images/Website.png",
     tags: ["Javascript", "React", "Node", "Next"],
-    source: "",
+    source: "https://github.com/joycelynmng/personal-portfolio",
     visit: "",
     id: 0,
   },
