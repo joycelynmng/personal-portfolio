@@ -104,10 +104,10 @@ export const SectionDivider = styled.div`
   width: 64px;
   height: 6px;
   border-radius: 10px;
-  background-color: #e3e1cd;
+  background-color: #b1bca0;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #d0d9b3 0%, #e3e2cd 100%)' :
-    'linear-gradient(270deg, #d0d9b3 0%, #e3e1cd 100%)'};
+    'linear-gradient(270deg, #d0d9b3 0%, #b1bca0 100%)' :
+    'linear-gradient(270deg, #d0d9b3 0%, #b1bca0 100%)'};
     margin: ${(props) => props.divider ? "4rem 0" : "" };
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
