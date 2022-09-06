@@ -18,7 +18,6 @@ export const Top = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-  color: #574336
 `;
 
 
@@ -31,8 +30,8 @@ export const HeaderFour = styled.h4`
 
 export const Container = styled.p`
   width: 100%;
-  color: #574336;
   padding: 0 50px;
+  color: #574336;
   font-style: 2rem;
   line-height: 24px;
   text-align: center;
@@ -48,7 +47,7 @@ export const BigContainer = styled.div`
 
 export const Icons = styled.a`
 transition: 0.3s ease;
-color: #574336;
+color: #b1bca0;
 border-radius: 50px;
 &:hover {
     transform: scale(1.2);
