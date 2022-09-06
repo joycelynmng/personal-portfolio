@@ -26,14 +26,13 @@ export const HeaderFour = styled.h4`
   font-weight: 500;
   text-align: center;
   color: #574336;
-  padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
 export const Container = styled.p`
   width: 100%;
-  padding: 0 50px;
   color: #574336;
+  padding: 0 50px;
   font-style: 2rem;
   line-height: 24px;
   text-align: center;

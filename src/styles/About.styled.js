@@ -7,7 +7,7 @@ export const EmailLink = styled.a`
   font-size: 18px;
   line-height: 32px;
   padding-bottom: 20px;
-  color: rgba(87, 67, 54, 0.8);
+  color: rgba(85, 67, 54, 0.8);
   transition: 0.4s ease;
   &:hover {
     color: #7d6655;
