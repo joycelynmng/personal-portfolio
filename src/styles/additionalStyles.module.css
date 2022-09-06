@@ -1,0 +1,11 @@
+.forHeader {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.addPaddingIntro {
+    padding-bottom: 20px;
+}
+
