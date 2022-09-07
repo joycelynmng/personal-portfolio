@@ -14,7 +14,7 @@ const Intro = (props) => (
           <SectionSubText className={moreStyles.addPaddingIntro}>
             Cognitive Science @ UCLA |
             Specialization in computing |
-            Statistics minor
+            Data Science and Engineering Minor
           </SectionSubText>
       </LeftSection>
   </Section>
