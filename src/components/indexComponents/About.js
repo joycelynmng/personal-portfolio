@@ -14,7 +14,7 @@ const About = () => {
         <RightAlignSubText>
         Hi! My name is Joycelyn. I am currently a third year
         student at UCLA pursing a degree in Cognitive Science
-        with a specialization in computing and also a Statistics minor.
+        with a specialization in computing and also a Data Science and Engineering Minor.
         I am fascinated by the different
         aspects of computer science, psychology, and statistics. 
         I am an avid learner and a resourceful achiever. I continuously 
