@@ -42,10 +42,16 @@ export const projects = [
 
 export const experience = [
   {
+    jobTitle: "Software Engineering Intern",
+    company: "BruinShack",
+    date: "Aug 2022 - Present",
+    id: 0,
+  },
+  {
     jobTitle: "Samsung Experience Consultant",
     company: "2020 Companies",
     date: "Aug 2021 - June 2022",
-    id: 0,
+    id: 1,
   },
 ];
 
