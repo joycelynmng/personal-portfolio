@@ -3,15 +3,13 @@ import styled from 'styled-components';
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 2rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
-  padding-bottom: 0;
+  padding-bottom: 30px;
 }
 `
 export const Top = styled.div`
@@ -24,6 +22,7 @@ export const Top = styled.div`
 export const HeaderFour = styled.h4`
   font-weight: 500;
   text-align: center;
+  margin: auto;
   color: #574336;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -37,7 +36,7 @@ export const Container = styled.p`
   line-height: 24px;
   text-align: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    margin: auto;
   
 }
 `;
