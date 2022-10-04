@@ -31,6 +31,7 @@ export const HeaderFour = styled.h4`
 export const Container = styled.p`
   width: 100%;
   padding: 0 50px;
+  margin: auto;
   color: #574336;
   font-style: 2rem;
   line-height: 24px;
