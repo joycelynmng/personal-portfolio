@@ -5,7 +5,6 @@ export const Section = styled.section`
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
-  max-width: 1040px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -55,17 +54,16 @@ export const SubSectionTitle = styled.h3`
   line-height: ${(props) => props.main ? '62px' : '42px'};
   width: max-content;
   max-width: 100%;
-  margin-left: 40px;
+  margin: auto;
   background: linear-gradient(121.57deg, #574336 18.77%, rgba(87, 67, 54, 0.8) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
+  margin-top: 10px;
   padding: ${(props) => props.main ? '20px 0 16px' : '0'};
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '38px' : '28px'};
     line-height: ${(props) => props.main ? '46px' : '38px'};
-    margin-bottom: 8px;
-    margin-left: 30px;
+    margin: auto;
     padding: ${(props) => props.main ? '30px 0 12px' : '0'};
   }
   @media ${props => props.theme.breakpoints.sm}{
@@ -73,8 +71,7 @@ export const SubSectionTitle = styled.h3`
     line-height: 40px;
     font-size: ${(props) => props.main ? '18px' : '22px'};
     line-height: ${(props) => props.main ? '32px' : '40px'};
-    margin-bottom: 5px;
-    margin-left: 20px;
+    margin: auto;
     padding: ${(props) => props.main ? '10px 0 8px' : '0'};
     max-width: 100%;
   }

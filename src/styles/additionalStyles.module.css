@@ -6,6 +6,10 @@
 }
 
 .addPaddingIntro {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
+    padding-top: 30px;
 }
 
+.backgroundColor{
+    background: linear-gradient(#c7cfba, rgb(234, 238, 233));
+}
