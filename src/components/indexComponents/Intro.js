@@ -3,7 +3,7 @@ import { LeftSection } from '../../styles/Intro.styled';
 import moreStyles from '../../styles/additionalStyles.module.css'
 
 const Intro = (props) => (
-  <Section row>
+  <Section row className={moreStyles.backgroundColor}>
       <LeftSection>
           <SectionTitle main center>
               Hi I'm Joycelyn
