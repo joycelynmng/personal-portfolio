@@ -62,7 +62,7 @@ export const ListTitle = styled.h4`
   font-size: 28px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #b1bca0;
   margin-bottom: 8px;
 @media ${props => props.theme.breakpoints.md}{
   font-size: 24px;
@@ -79,7 +79,7 @@ export const ListTitle = styled.h4`
 export const ListParagraph = styled.p`
   font-size: 18px;
   line-height: 30px;
-  color: rgba(255, 255, 255, 0.75);
+  color: #574336;
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
     line-height: 28px;
@@ -94,6 +94,7 @@ export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
+  color: #b1bca0;
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;
 }
